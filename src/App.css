@@ -2,18 +2,34 @@ body {
 	background-color: #f3f3fb;
 }
 
-.wrapper {
+.sideNav {
 	min-height: 100vh;
 	background-color: white;
-	max-width: 30vh;
+	max-width: 280px;
 }
-
+.wrapper {
+}
 img {
 	height: 100px;
 }
+.userLogo {
+	padding-top: 5em;
+}
 
 .img {
-	max-height: 70px;
-	max-width: 70px;
-	border-radius: 100px;
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.img img {
+	margin: 0px 5px -10px 0px;
+}
+.d-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.userName {
+	padding-top: 1em;
 }
