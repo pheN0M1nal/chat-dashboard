@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/07bc241768c969f6b6a27a7bf0dfb490?family=TT+Norms+Regular);
+
 body {
 	background-color: #f3f3fb;
 }
@@ -15,6 +17,12 @@ img {
 .userLogo {
 	padding-top: 5em;
 }
+.userName_arrow {
+	padding-bottom: 1em;
+}
+.down_arrow {
+	padding: 1.3em 0 0 0em;
+}
 
 .img {
 	height: 70px;
@@ -30,6 +38,37 @@ img {
 	align-items: center;
 	justify-content: center;
 }
-.userName {
-	padding-top: 1em;
+.d-flex2 {
+	display: flex;
+	align-items: center;
 }
+.bar {
+	margin: -0.4em 3em -1.5em -1.3em;
+	padding-bottom: 0.6em;
+}
+.userName {
+	padding: 1em 0.5em 0 1em;
+	color: #0d1c2e;
+}
+
+.navItem_icon {
+	padding-right: 0.8em;
+}
+
+.navItem {
+	padding: 0 0;
+	text-transform: uppercase;
+	color: #707c97;
+	font-family: 'TT Norms Regular';
+	font-weight: 900;
+}
+.navItemLogOut {
+	padding-top: 14em;
+}
+
+/*
+
+name 0D1C2E\
+blue 2A8BF2
+grey707C97
+*/
