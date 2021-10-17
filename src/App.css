@@ -66,9 +66,15 @@ img {
 	padding-top: 14em;
 }
 
+.hide {
+	visibility: hidden;
+}
+.setBg {
+	background-color: #f3f3fb;
+}
 /*
 
 name 0D1C2E\
 blue 2A8BF2
-grey707C97
+grey 707C97
 */

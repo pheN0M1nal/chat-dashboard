@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Icon1 = () => {
+const Icon1 = color => {
+	console.log(color);
 	return (
 		<svg
 			width='24'
@@ -38,7 +39,7 @@ const Icon1 = () => {
 							id='Base'
 							width='24'
 							height='24'
-							fill='#707C97'
+							fill={color.color}
 						/>
 					</g>
 				</g>
